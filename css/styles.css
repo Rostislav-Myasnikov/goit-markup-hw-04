@@ -151,6 +151,8 @@ li {
       rgba(47, 46, 66, 0.7), rgba(47, 46, 66, 0.7)), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
 }
 
@@ -243,10 +245,10 @@ li {
   border-radius: 4px;
   width: 264px;
   height: 112px;
-}
-
-.icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .team-info {
@@ -285,6 +287,7 @@ li {
 .team-text {
   font-size: 16px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-title {
@@ -295,6 +298,24 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.card-social-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #e7e9fc;
+  background-color: #404bbf;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
 }
 
 .portfolio {
