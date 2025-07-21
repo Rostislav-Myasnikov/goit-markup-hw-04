@@ -343,7 +343,7 @@ li {
   display: flex;
   width: 100%;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .card-social {
@@ -484,6 +484,7 @@ li {
   display: inline-block;
   margin-bottom: 16px;
   justify-content: flex-start;
+  margin-right: 120px;
 }
 
 .social-footer {
@@ -491,16 +492,33 @@ li {
 }
 
 .media-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #FFFFFF;
   margin-bottom: 16px;
 }
 
 .footer-container {
   display: flex;
   gap: 120px;
+  align-items: baseline;
+}
+
+.social-link-footer {
+  background-color: #4d5ae5;
+  padding: 12px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color:  #31d0aa;
 }
