@@ -484,6 +484,9 @@ li {
   display: inline-block;
   margin-bottom: 16px;
   justify-content: flex-start;
+}
+
+.footer-copy{
   margin-right: 120px;
 }
 
@@ -502,9 +505,7 @@ li {
 
 .footer-container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .social-link-footer {
@@ -522,4 +523,9 @@ li {
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color:  #31d0aa;
+}
+
+.card-social-list-footer {
+  gap: 16px;
+  display: flex;
 }
