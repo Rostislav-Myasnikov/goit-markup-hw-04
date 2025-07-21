@@ -353,10 +353,6 @@ li {
   fill: #f4f4fd;
 }
 
-.team-social {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .social-container {
   background-color: #4d5ae5;
   width: 40px;
@@ -376,6 +372,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
