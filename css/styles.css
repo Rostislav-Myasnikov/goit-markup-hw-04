@@ -529,3 +529,9 @@ li {
   display: flex;
 }
 
+.card-social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #f4f4fd;
+}
